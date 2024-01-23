@@ -1,0 +1,123 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    height: 100%;
+}
+
+.containe{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+
+.header h1{
+    font-size: 3.2rem;
+    color: #FDB927;
+    margin: 30px;
+    font-family: "Lakers Textured";
+    font-weight: bolder;
+}
+
+.display{
+    height: max-content;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: auto;
+    padding-bottom: 50px;
+    row-gap: 35px;
+    padding-top: 3%;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+
+.display-container{ 
+    height: max-content;
+    flex-grow: 1;
+    padding-top: 3%;
+    background-color:rgb(28, 27, 27);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    
+    width: 220px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+.squad{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: "Lakers Regular";
+    background-color: rgb(117, 125, 34);
+    padding: 7px;
+    color: aliceblue;
+}
+
+.player-att-grid{
+    height: min-content;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.player-att-grid strong{
+    padding-top: 3%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer{
+    color: aliceblue;
+    margin-top: 20px;
+    background-color: grey;
+    padding: 40px;
+    width: 100vw;
+    text-align: center;
+}
+
+
+.bm-logo{
+    height: 100px;
+    width: 80px;
+    background-color: transparent;
+    
+    margin-right: 7%;
+    margin-top: 5px
+    
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lakers-react/static/css/main.746c58e6.css",
+    "main.js": "/lakers-react/static/js/main.d09c958e.js",
+    "index.html": "/lakers-react/index.html",
+    "main.746c58e6.css.map": "/lakers-react/static/css/main.746c58e6.css.map",
+    "main.d09c958e.js.map": "/lakers-react/static/js/main.d09c958e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.746c58e6.css",
+    "static/js/main.d09c958e.js"
+  ]
+}

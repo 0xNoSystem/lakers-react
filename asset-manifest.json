@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/lakers-react/static/css/main.746c58e6.css",
-    "main.js": "/lakers-react/static/js/main.d09c958e.js",
+    "main.js": "/lakers-react/static/js/main.95dfcfad.js",
+    "static/media/lebron-james.mp3": "/lakers-react/static/media/lebron-james.493cd96ea745a26d4b93.mp3",
     "index.html": "/lakers-react/index.html",
     "main.746c58e6.css.map": "/lakers-react/static/css/main.746c58e6.css.map",
-    "main.d09c958e.js.map": "/lakers-react/static/js/main.d09c958e.js.map"
+    "main.95dfcfad.js.map": "/lakers-react/static/js/main.95dfcfad.js.map"
   },
   "entrypoints": [
     "static/css/main.746c58e6.css",
-    "static/js/main.d09c958e.js"
+    "static/js/main.95dfcfad.js"
   ]
 }
